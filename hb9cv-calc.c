@@ -1,3 +1,5 @@
+//Copyright (C) 2021 Thomas Kummer
+
 #include <stdio.h>
 
 int main() {
