@@ -36,7 +36,7 @@ int main() {
 	
 	float f, lambda, l1, l2, l3, l4, l5, bdiam, raddiam;
 
-	printf("Please input an f in MHz value: e.G. 432.2 ");
+	printf("Please input an f in MHz value: e.G. 432.2 \n");
     	scanf("%f", &f);
     
     	printf("Calculating for %f MHz\n", f);
