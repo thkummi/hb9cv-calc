@@ -39,12 +39,11 @@ int main() {
         scanf("%i", &unit_index);
 
         switch(unit_index){
-        case 1: unit_factor = 1;
-                break;
-        case 2: unit_factor = 0.039; //for inch
-                break;
+        case 1: unit_factor = 1; break;
+        case 2: unit_factor = 0.039; break; //for inch
+        default: unit_factor = 1; unit_index = 1;  printf("Invalid input! Guessing! \n"); printf("\n"); break;
         }
-
+        
         printf("Calculating for %f MHz\n", f);
 
         lambda = ( 30000000/f)/100;
