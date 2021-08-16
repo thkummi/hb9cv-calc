@@ -96,7 +96,7 @@ int main() {
         printf("\n");
         printf("\n");
         printf("Press Any Key to Continue/Quit \n");
-        _getch();
+        // _getch(); //comment in on windows as requ
         printf(" 73! \n");
 
         return 0;
