@@ -95,8 +95,8 @@ int main() {
         printf(" C1 10m-Band 50pF 6m-Band 30pF 2m band 12pF \n");
         printf("\n");
         printf("\n");
-        printf("Press Any Key to Continue/Quit \n");
-        // _getch(); //comment in on windows as requ
+        /*printf("Press Any Key to Continue/Quit \n");
+        _getch();*/ //comment in on windows as requ
         printf(" 73! \n");
 
         return 0;
