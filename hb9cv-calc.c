@@ -18,8 +18,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 #include <stdio.h>
 
-void printunit (int unit_index){
-        switch(unit_index){
+void printunit (int *unit_index){
+        switch(*unit_index){
         case 1: printf("mm\n");
                 break;
         case 2: printf("inch\n");
@@ -65,19 +65,19 @@ void hb9cv_print (float *f, float *unit_factor, float *lambda, float *l1, float 
         printf("\n");
         printf(" Lambda is %f mm\n", *lambda);
         printf(" L1 Driven Element is %f ", *l1);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" L2 Reflector is %f ", *l2);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" L3 element spaceing is %f ", *l3);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" L4 Matching on dr. element is %f ", *l4);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" L5 Matching on reflector is %f ", *l5);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" Boom Diam. is %f ", *bdiam);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf(" Radiator Diam. is %f ", *raddiam);
-        printunit(*unit_index);
+        printunit(&*unit_index);
         printf("\n");
         printf("  connect feed on this side \n");
         printf("  --------------------------L1 \n");
