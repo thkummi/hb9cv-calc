@@ -34,8 +34,6 @@ void set_freq(float *f){
         scanf("%f", &input);
         *f = input;
         printf("\n");
-
-
 }
 
 void choose_units_system(float *unit_factor ,int *unit_index ){
