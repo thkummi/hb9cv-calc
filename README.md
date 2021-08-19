@@ -1,3 +1,5 @@
+Repo to archive -> development now on https://github.com/thkummi/ctenna
+
 # hb9cv-calc
 HB9CV antenna calculator
 
